@@ -11,9 +11,9 @@
 
 const int N = 256;
 
-BigInteger :: BigInteger(char* str)
+BigInteger :: BigInteger(char* b)
 {
-    str = FindOnlyNumbers(str);
+    char* str = FindOnlyNumbers(b);
     if (strlen(str) > N) size = 1;
     else size = strlen(str);
     a = new char [size];

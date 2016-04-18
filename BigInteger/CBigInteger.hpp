@@ -15,7 +15,7 @@
 class BigInteger
 {
 public:
-    BigInteger(char* a = new char [0]);
+    BigInteger(char* = new char [0]);
     BigInteger (const BigInteger& );
     friend std:: ostream& operator << (std:: ostream& , const BigInteger& );
     friend std:: istream& operator >> (std:: istream& , BigInteger& );

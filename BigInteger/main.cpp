@@ -24,6 +24,7 @@ int main()
     cout << "your number: " << endl;
     cout << bi2 << endl;
     cout << "Sum: " << endl;
-    cout << bi + bi2;
+    cout << bi + bi2 << endl;
+    cout << bi2;
     return 0;
 }
