@@ -104,7 +104,7 @@ BigInteger BigInteger :: operator + (const BigInteger& bi2) const
         for (int i = 0; h < n; i++,h++)
             b[h] = a[i];
     }
-    for (int i = n - 1; i >= 0; i--)
+    for (int i = static_cast<int>(n) - 1; i >= 0; i--)
     {
         sum[i] = (sum[i]-'0') + (b[i]-'0') + '0';
         if (sum[0] > '9')
